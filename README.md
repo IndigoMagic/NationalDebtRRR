@@ -5,7 +5,9 @@
 
 <img width="369" alt="image" src="https://user-images.githubusercontent.com/37242294/218236003-31763e47-5307-4baa-8ebc-360a64515011.png">
 
-如需接收消息，需要配合 PushDeer 使用 
+**使用前请修改脚本，添加上自己的 PUSH_DEER_SERVER 和 PUSH_KEY **
+
+接收消息，需要配合 PushDeer 使用 
 
 PushDeer是一个可以自行架设的无APP推送服务，免费的，搭设详情见：https://github.com/easychen/pushdeer
 
