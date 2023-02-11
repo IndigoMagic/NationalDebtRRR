@@ -89,7 +89,7 @@ if __name__ == '__main__':
             for i in CODE_LIST:
                 time.sleep(random.uniform(0.1, 0.4))  # 随机延时模拟真实请求
                 judge(i)
-        if is_in_time("9:30", "10:48") and START_WHETHER_SEND == 0:
+        if is_in_time("9:30", "9:31") and START_WHETHER_SEND == 0:
             """如果刚开始国债逆回购交易，查一下204001发送给设备"""
             send_mgs(get_rate("204001"))
             START_WHETHER_SEND = 1
@@ -99,7 +99,7 @@ if __name__ == '__main__':
             send_mgs(get_rate("204001"))
             END_WHETHER_SEND = 1
             time.sleep(random.uniform(1.1, 1.3))
-        if is_in_time("9:30", "10:48") is not True and is_in_time("15:25", "15:26") is not True:
+        if is_in_time("9:30", "9:31") is not True and is_in_time("15:25", "15:26") is not True:
             START_WHETHER_SEND = 0
             END_WHETHER_SEND = 0
             print("reseted!!")
