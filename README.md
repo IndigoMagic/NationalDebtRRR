@@ -10,3 +10,14 @@
 PushDeer是一个可以自行架设的无APP推送服务，免费的，搭设详情见：https://github.com/easychen/pushdeer
 
 没有做工作日判断，不过影响不大：）
+
+在服务器后台运行该脚本请在脚本目录执行如下命令：
+```
+nohup python3 -u ./gznhg.py >/dev/null 2>log &
+```
+查询python进程：
+```
+ps -ef |grep python
+```
+
+
